@@ -221,7 +221,7 @@
   position: relative;
 
   &:hover ~ .main-navigation__dropdown-list {
-    opacity: 1;
+    display: block;
   }
 }
 .main-navigation__iconed::after {
@@ -240,17 +240,18 @@
 }
 .main-navigation__dropdown-list {
   position: absolute;
-  left: 35px;
-  display: flex;
+  bottom: -50px;
+  display: none;
   z-index: 1;
   margin: 0;
   margin-top: 30px;
   padding: 0;
   background-color: #f7e296;
   list-style-type: none;
-  opacity: 0;
 }
 .main-navigation__dropdown__item {
+  display: inline-block;
+  vertical-align: top;
   width: 200px;
   margin-right: 60px;
 }
