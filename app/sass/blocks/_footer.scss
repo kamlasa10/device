@@ -1,0 +1,128 @@
+.page-footer {
+  background-color: #464646;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 79px;
+}
+.page-footer__top {
+  padding-bottom: 49px;
+}
+.page-footer__top-row {
+  justify-content: space-between;
+  margin-top: -2px;
+}
+.page-footer__logo .logo {
+  margin-bottom: 35px;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffc600;
+}
+.page-footer__top .action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 360px;
+}
+.action .action__link--correct {
+  color: rgba(255,255,255,0.6);
+
+  &:hover {
+    color: rgba(255,255,255,1);
+  }
+
+  &:active {
+    color: rgba(255,255,255,0.3);
+  }
+
+  &:hover .action__icon--correct path {
+
+    &:hover {
+      fill: rgba(255,198,0,0.6);
+    }
+  }
+}
+
+.action .login__icon {
+  top: 0;
+  left: 37px;
+}
+.action .action__icon--correct path {
+  fill: #ffc600;
+}
+.action .login__link {
+  padding-left: 63px;
+  margin-right: 35px;
+}
+.page-footer__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.page-footer__item {
+  margin-right: 52px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.page-footer__link {
+  color: #ffffff;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(255,255,255,0.6);
+  }
+
+  &:active {
+    color: rgba(255,255,255,0.3);
+  }
+}
+.page-footer__bottom-row {
+  justify-content: space-between;
+  align-items: center;
+}
+.page-footere__border-yellow {
+  width: 82px;
+  height: 7px;
+  background-color: #ffc600;
+}
+.page-footer__social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin-left: 6px;
+}
+.social__link {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 18px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.2;
+  font-size: 0;
+  border-radius: 50%;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.1;
+  }
+}
+.author__link {
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+

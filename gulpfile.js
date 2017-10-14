@@ -8,6 +8,7 @@ gulp.task('serve', ['sass'], function() {
   });
   gulp.watch("app/sass/**/*.scss", ['sass']);
   gulp.watch("app/*.html").on('change', browserSync.reload);
+  gulp.watch("app/js/**/*.js").on('change', browserSync.reload);
 });
 gulp.task('sass', function() {
   return gulp.src("app/sass/**/*.scss")
